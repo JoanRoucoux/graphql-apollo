@@ -11,4 +11,9 @@ module.exports = {
     SOL: 'Sol',
     SATURN: 'Saturn',
   },
+  SessionOrError: {
+    __resolveType(object) {
+      return object.code ? 'Error' : 'Session';
+    },
+  },
 };
