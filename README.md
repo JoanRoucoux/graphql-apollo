@@ -1,6 +1,6 @@
 # graphql-apollo
 
-Full-stack, GraphQL-powered app with the Apollo platform 🚀.
+Full-stack, GraphQL-powered app with the Apollo platform 🚀.<br/>
 Started from Pluralsight course "Building a GraphQL API with Apollo Server".
 
 ## File structure
