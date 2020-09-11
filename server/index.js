@@ -22,6 +22,9 @@ const server = new ApolloServer({
     }
     return error;
   },
+  engine: {
+    reportSchema: true,
+  },
 });
 
 server.listen({ port: process.env.PORT || 4000 }).then(({ url }) => {
