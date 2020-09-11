@@ -8,7 +8,7 @@ Started from Pluralsight course "Building a GraphQL API with Apollo Server".
 The app is split out into two folders:
 
 - `client`: Application frontend, which uses Apollo Client to communicate with the GraphQL server
-- `server`: Server side of the application, GraphQL API based on PostgreSQL database
+- `server`: Server side of the application, GraphQL API based on REST API and mock data
 
 ## Example
 
